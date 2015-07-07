@@ -1,6 +1,6 @@
 /*global require, alert*/
 /*
- * 
+ *
  * @owner Enter you name here (xxx)
  */
 /*
@@ -24,8 +24,8 @@ require( ["js/qlik"], function ( qlik ) {
 	//callbacks -- inserted here --
 	//open apps -- inserted here --
 //	var app = qlik.openApp('Executive Dashboard.qvf', config);
-	var app = qlik.openApp('ea18db6f-b59b-4588-a430-0a699a832c11', config);
-	
+	var app = qlik.openApp('e59234ce-6a8d-4ab4-b266-c1b46e6179c3', config);
+
 	//get objects -- inserted here --
 	app.getObject('QV01','tmaqpf', { noInteraction:true });
 
@@ -36,7 +36,7 @@ require( ["js/qlik"], function ( qlik ) {
 	app.getObject('QV-Services-03','MdpsUpA');
 
 	app.getObject('QV-portofolio-01','nRxXG', { noInteraction:true });
-	app.getObject('QV-Modal-01','nRxXG');	
+	app.getObject('QV-Modal-01','nRxXG');
 	app.getObject('QV-portofolio-02','pDKRhr', { noInteraction:true });
 	app.getObject('QV-Modal-02','pDKRhr');
 	app.getObject('QV-portofolio-03','JEBdZz', { noInteraction:true });
@@ -57,7 +57,7 @@ require( ["js/qlik"], function ( qlik ) {
 	/* $('#portfolioModal1').on('show.bs.modal', function (event) {
 	  console.log('modelled');
 	  console.log(app);
-	  app.getObject('QV-Modal-01','nRxXG');	
+	  app.getObject('QV-Modal-01','nRxXG');
 	}) */
 
 } );
