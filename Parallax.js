@@ -27,7 +27,7 @@ require( ["js/qlik"], function ( qlik ) {
 	var app = qlik.openApp('e59234ce-6a8d-4ab4-b266-c1b46e6179c3', config);
 
 	//get objects -- inserted here --
-	app.getObject('QV01','tmaqpf', { noInteraction:true });
+	app.getObject('QV01','tmaqpf', { noInteraction:false });
 
 	app.getObject( 'CurrentSelections', 'CurrentSelections' );
 
