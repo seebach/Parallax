@@ -11,6 +11,10 @@ body {
 .qv-selection-toolbar{
   position: fixed;
 }
+.qv-gs-header, .qv-object-header {
+/*  background-color: #333; */
+  background-image:none;
+}
 
 .text-muted {
     color: #777;
@@ -452,7 +456,8 @@ section h3.section-subheading {
 .timeline>li {
     position: relative;
     margin-bottom: 50px;
-    min-height: 50px;
+/*    min-height: 50px; */
+    min-height: 200px;
 }
 
 .timeline>li:before,
@@ -499,7 +504,8 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+/*    background-color: #fed136; */
+    background-color: #f1f1f1; ;
 }
 
 .timeline>li .timeline-image h4 {
