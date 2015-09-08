@@ -659,8 +659,20 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+aside.clients .container {
+  text-align: center;
+  margin-top: 80px;
+}
+aside.clients row {
+/*       vertical-align:middle;
+/*  vertical-align: middle;
+  height:250px; */
+}
 aside.clients img {
-    margin: 50px auto;
+    /*margin: 50px auto; */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 section#contact {

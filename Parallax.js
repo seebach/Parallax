@@ -24,7 +24,7 @@ require( ["js/qlik"], function ( qlik ) {
 	//callbacks -- inserted here --
 	//open apps -- inserted here --
 //	var app = qlik.openApp('Executive Dashboard.qvf', config);
-	var app = qlik.openApp('e59234ce-6a8d-4ab4-b266-c1b46e6179c3', config);
+	var app = qlik.openApp('bd79582b-92ae-4a98-9df9-e84240492a0e', config);
 
 	//get objects -- inserted here --
 	app.getObject('QV01','tmaqpf', { noInteraction:false });
